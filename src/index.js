@@ -1,18 +1,8 @@
 // Absolute Imports
 import React from "react";
-import { render } from "react-dom";
+import { ReactDOM } from "react-dom";
 
 import "./stylesheets/style.scss";
-import Header from "./components/Header";
+import App from "./App";
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <>
-        <Header />
-      </>
-    );
-  }
-}
-
-render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));

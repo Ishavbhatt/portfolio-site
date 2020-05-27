@@ -12,21 +12,21 @@ export default function Header() {
           activeClassName="navbar__link--active"
           exact
           className="navbar_link"
-          to="/admins"
+          to="/"
         >
           Home
         </Link>
         <Link
           activeClassName="navbar__link--active"
           className="navbar_link"
-          to="/admins/signup"
+          to="/admins"
         >
           Sign up
         </Link>
         <Link
           activeClassName="navbar__link--active"
           className="navbar_link"
-          to="/admins/signin"
+          to="/admins"
         >
           Sign in
         </Link>
