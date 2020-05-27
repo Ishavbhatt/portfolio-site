@@ -22,14 +22,14 @@ export default function Header() {
           className="navbar_link"
           to="/admins"
         >
-          About
+          Work
         </Link>
         <Link
           activeClassName="navbar__link--active"
           className="navbar_link"
           to="/admins"
         >
-          Work
+          About
         </Link>
       </div>
     </div>
