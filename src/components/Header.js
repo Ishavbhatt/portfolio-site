@@ -16,19 +16,20 @@ export default function Header() {
         >
           Home
         </Link>
+
         <Link
           activeClassName="navbar__link--active"
           className="navbar_link"
           to="/admins"
         >
-          Sign up
+          About
         </Link>
         <Link
           activeClassName="navbar__link--active"
           className="navbar_link"
           to="/admins"
         >
-          Sign in
+          Work
         </Link>
       </div>
     </div>
