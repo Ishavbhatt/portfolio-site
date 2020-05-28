@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="header-section">
       <div className="left-header-section">
-        <h1 className="quiz-head">Ishav Bhhatt</h1>
+        <h1 className="quiz-head">Ishav Bhatt</h1>
       </div>
 
       <div className="right-header-section">
