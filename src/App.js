@@ -1,17 +1,18 @@
-import React from "react";
+import React, { Component } from "react";
 import Header from "./components/Header";
+import Home from "./components/Home";
 
 import { BrowserRouter, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <React.Fragment>
+class App extends Component {
+  render() {
+    return (
       <BrowserRouter>
         <Header />
-        <Route path="/" exact component={Header}></Route>
+        <Route path="/" exact component={Home}></Route>
       </BrowserRouter>
-    </React.Fragment>
-  );
+    );
+  }
 }
 
 export default App;
