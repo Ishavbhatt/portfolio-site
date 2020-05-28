@@ -1,6 +1,6 @@
 // Absolute Imports
 import React from "react";
-import { ReactDOM } from "react-dom";
+import ReactDOM from "react-dom";
 
 import "./stylesheets/style.scss";
 import App from "./App";
