@@ -1,5 +1,5 @@
 .homepage-div {
-  background: url("/images/2ndpic.jpg");
+  background: url("/images/nature.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -12,5 +12,60 @@
   font-size: 5rem;
   padding: 15rem 10rem;
   font-weight: 400;
+  letter-spacing: 2px;
   font-style: initial;
+}
+
+.aboutinhomepage-section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+.my-image {
+  width: auto;
+  max-width: 90%;
+}
+
+.aboutinhomepage-boxrow {
+  display: flex;
+  justify-content: center;
+}
+.aboutin-homepagebox1 {
+  width: 45%;
+}
+.aboutin-homepagebox2 {
+  width: 45%;
+}
+.aboutinhomepage-heading {
+  font-size: 42px !important;
+  line-height: 54px !important;
+  color: #2a2a2a !important;
+  font-family: "Droid Serif" !important;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 0 2rem;
+}
+.aboutinhomepage-para {
+  font-size: 16px !important;
+  line-height: 23px !important;
+  color: #626262 !important;
+  font-family: "Roboto" !important;
+  padding: 1rem 2rem;
+}
+.about-button {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 200;
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 7px 20px;
+}
+.about-button:hover {
+  background-color: white;
+  color: black;
+}
+.aboutbutton-div {
+  padding: 1rem 2rem;
 }
