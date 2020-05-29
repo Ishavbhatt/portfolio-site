@@ -36,8 +36,8 @@ export default function Home() {
               adipiscing elit sed do eiusmod tempor inciddunt ut labore et
               dolore magna aliqua aliquip laboris nisi ut aliquip.
             </p>
-            <div className="aboutbutton-div">
-              <Link to="/about" className="about-button">
+            <div className="aboutin-homepagebutton-div">
+              <Link to="/about" className="about-inhomepage-button">
                 Learn More
               </Link>
             </div>

@@ -1,0 +1,62 @@
+.skillpage-div {
+  margin-top: 3rem;
+  //   background-color: #1f253d;
+}
+.skillpage-heading {
+  font-size: 40px;
+  font-weight: 500;
+  color: #394263;
+  padding-top: 2rem;
+  padding-left: 10rem;
+  padding-bottom: 1rem;
+}
+.info-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 1px solid #394263;
+}
+.info-image:hover {
+  transform: scale(1.5);
+}
+.skillpage-row1boxes,
+.skillpage-row2boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skillpage-row1box,
+.skillpage-row2box {
+  background: #394263;
+  border-radius: 2px;
+  display: inline-block;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: 300px;
+}
+.information-section {
+  display: flex;
+  padding-top: 1rem;
+  padding-left: 10rem;
+}
+.info-name {
+  padding-top: 0.3rem;
+  padding-left: 1rem;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.info-bio {
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: #626262 !important;
+}
+.first-skill {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}

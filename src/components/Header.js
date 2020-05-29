@@ -31,10 +31,17 @@ export default function Header() {
               <NavLink
                 activeClassName="navbar__link--active"
                 className="navbar_link"
+                to="/skills"
+              >
+                Skills
+              </NavLink>
+              {/* <NavLink
+                activeClassName="navbar__link--active"
+                className="navbar_link"
                 to="/work"
               >
-                Work
-              </NavLink>
+                Contact
+              </NavLink> */}
             </div>
           </div>
         </div>

@@ -7,11 +7,16 @@
   background-color: #999;
   color: white;
 }
+strong {
+  color: #2a2a2a;
+  font-weight: 500;
+  font-family: inherit;
+}
 .homepage-name {
   color: #2a2a2a;
   font-size: 5rem;
   padding: 15rem 10rem;
-  font-weight: 400;
+  font-weight: 300;
   letter-spacing: 2px;
   font-style: initial;
 }
@@ -42,7 +47,7 @@
   color: #2a2a2a !important;
   font-family: "Droid Serif" !important;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
   padding: 0 2rem;
 }
 .aboutinhomepage-para {
@@ -52,7 +57,7 @@
   font-family: "Roboto" !important;
   padding: 1rem 2rem;
 }
-.about-button {
+.about-inhomepage-button {
   text-decoration: none;
   font-size: 30px;
   font-weight: 200;
@@ -62,10 +67,10 @@
   border-radius: 8px;
   padding: 7px 20px;
 }
-.about-button:hover {
+.about-inhomepage-button:hover {
   background-color: white;
   color: black;
 }
-.aboutbutton-div {
+.aboutin-homepagebutton-div {
   padding: 1rem 2rem;
 }
