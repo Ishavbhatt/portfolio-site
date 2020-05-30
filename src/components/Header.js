@@ -38,7 +38,7 @@ export default function Header() {
               </NavLink>
               <div class="dropdown">
                 <button class="dropbtn">
-                  More <BsChevronDown />
+                  More <BsChevronDown size={30} color="green" />
                 </button>
                 <div class="dropdown-content">
                   <a href="https://www.linkedin.com/in/ishav-bhatt-a3484b192/">
