@@ -27,14 +27,24 @@
 }
 .skillpage-row1box,
 .skillpage-row2box {
-  background: #394263;
+  background: #394264;
   border-radius: 2px;
   display: inline-block;
   height: 300px;
   margin: 1rem;
   position: relative;
   width: 300px;
+  border-radius: 2rem;
 }
+.skillpage-row1box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px #394264, 0 10px 10px #394264;
+}
+.skillpage-row2box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 14px 28px #394264, 0 10px 10px #394264;
+}
+
 .information-section {
   display: flex;
   padding-top: 1rem;
@@ -54,9 +64,107 @@
   letter-spacing: 2px;
   color: #626262 !important;
 }
-.first-skill {
+.first-skill,
+.secound-skill,
+.third-skill {
+  background-color: #27a8ab;
   color: white;
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 35px;
+  font-weight: 500;
+  letter-spacing: 3px;
+  padding: 1rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+.secound-skill,
+.third-skill {
+  background-color: #27a8ab;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
   letter-spacing: 2px;
+  padding: 1.3rem 0;
+  text-align: center;
+  cursor: pointer;
+}
+// .first-skill:hover {
+//   color: white;
+//   background-color: #394264;
+// }
+li {
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+}
+.number-list {
+  display: flex;
+  text-align: center;
+}
+
+.allskills-child {
+  color: #ffffff !important;
+  font-size: 15px;
+  font-weight: 100;
+  padding: 15px;
+  text-align: center;
+}
+.allskills-child:hover {
+  background: #50597b;
+  border-top: 1px solid #1f253d;
+  text-decoration: none;
+}
+hr {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+// Responsive
+@media screen and (max-width: 980px) {
+  .skillpage-row1boxes,
+  .skillpage-row2boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillpage-row1box,
+  .skillpage-row2box {
+    width: 500px;
+  }
+  .first-skill,
+  .secound-skill,
+  .third-skill {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .allskills-child {
+    color: #ffffff !important;
+    font-size: 40px;
+    font-weight: 100;
+    padding: 15px;
+    text-align: center;
+  }
+  .skillpage-heading {
+    font-size: 70px;
+    font-weight: 500;
+  }
+  .info-image {
+    width: 8rem;
+    height: 8rem;
+  }
+  .info-name {
+    font-size: 50px;
+  }
+  .info-bio {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .skillpage-row1boxes,
+  .skillpage-row2boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  .skillpage-row1box {
+    width: 500px;
+  }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import { BsChevronDown } from "react-icons/fa";
 import "../stylesheets/_header.scss";
 
 export default function Header() {
@@ -35,13 +36,18 @@ export default function Header() {
               >
                 Skills
               </NavLink>
-              {/* <NavLink
-                activeClassName="navbar__link--active"
-                className="navbar_link"
-                to="/work"
-              >
-                Contact
-              </NavLink> */}
+              <div class="dropdown">
+                <button class="dropbtn">
+                  More <BsChevronDown />
+                </button>
+                <div class="dropdown-content">
+                  <a href="https://www.linkedin.com/in/ishav-bhatt-a3484b192/">
+                    linkedin
+                  </a>
+                  <a href="https://twitter.com/ishavbhatt143">Twitter</a>
+                  <a href="https://github.com/Ishavbhatt">Github</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

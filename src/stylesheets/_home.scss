@@ -74,3 +74,26 @@ strong {
 .aboutin-homepagebutton-div {
   padding: 1rem 2rem;
 }
+// Responsive
+@media screen and (max-width: 980px) {
+  .aboutinhomepage-boxrow {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .aboutin-homepagebox1 {
+    width: 100%;
+  }
+  .aboutin-homepagebox2 {
+    width: 100%;
+  }
+  .aboutinhomepage-heading {
+    font-size: 62px !important;
+    padding: 2rem 2rem;
+  }
+  .aboutinhomepage-para {
+    font-size: 30px !important;
+
+    padding: 1rem;
+  }
+}

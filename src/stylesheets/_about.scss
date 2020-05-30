@@ -59,3 +59,25 @@
 .aboutbutton-div {
   padding: 1rem 2rem;
 }
+// Responsive
+@media screen and (max-width: 980px) {
+  .aboutpage-boxrow {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+  }
+  .aboutpage-heading {
+    font-size: 72px !important;
+    padding-top: 2rem;
+  }
+  .aboutpage-para {
+    font-size: 30px !important;
+    padding: 2rem 2rem;
+  }
+  .aboutpagebox1 {
+    width: 100%;
+  }
+  .aboutpagebox2 {
+    width: 100%;
+  }
+}
