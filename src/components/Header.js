@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { BsChevronDown } from "react-icons/fa";
+import { BsChevronDown } from "react-icons/bs";
 import "../stylesheets/_header.scss";
 
 export default function Header() {
@@ -38,7 +38,7 @@ export default function Header() {
               </NavLink>
               <div class="dropdown">
                 <button class="dropbtn">
-                  More <BsChevronDown size={30} color="green" />
+                  More <BsChevronDown className="dropdown-icon" />
                 </button>
                 <div class="dropdown-content">
                   <a href="https://www.linkedin.com/in/ishav-bhatt-a3484b192/">

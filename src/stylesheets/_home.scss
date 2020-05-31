@@ -1,5 +1,5 @@
 .homepage-div {
-  background: url("/images/nature.JPG");
+  background: url("/images/snow.JPG");
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -93,7 +93,10 @@ strong {
   }
   .aboutinhomepage-para {
     font-size: 30px !important;
-
     padding: 1rem;
+  }
+  .my-image {
+    width: 300px;
+    // max-width: 90%;
   }
 }
