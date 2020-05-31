@@ -1,6 +1,11 @@
 .quiz-logo {
   text-decoration: none;
 }
+// .buttons {
+//   display: flex;
+//   text-align: center;
+//   align-items: center;
+// }
 .header-section {
   padding: 0 2rem;
   display: flex;
@@ -15,15 +20,19 @@
   right: 0;
 }
 .quiz-head {
-  color: black;
+  color: #4f6886;
   font-size: 2.5rem;
+  letter-spacing: 1px;
 }
 .navbar-item {
   text-decoration: none;
 }
 .buttons {
   font-size: 1rem;
+  display: flex;
+  align-items: center;
 }
+
 .navbar__link {
   font-family: "Roboto", sans-serif;
   cursor: pointer;
@@ -31,11 +40,14 @@
 .navbar_link {
   margin: 0.4rem;
   letter-spacing: 0.1em;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-indent: 0.3em;
   font-weight: 400;
   color: black;
   text-decoration: none;
+}
+.navbar_link:hover {
+  color: #4f6886;
 }
 
 .navbar__link:hover {
@@ -44,7 +56,7 @@
 }
 
 .navbar__link--active {
-  border-bottom: 3px solid #3eb88c;
+  border-bottom: 3px solid #4f6886;
   transition: border-bottom 0.5s ease-in-out;
 }
 
@@ -100,7 +112,7 @@
   // padding-top: 2rem;
 }
 .dropdown-content a {
-  color: black;
+  color: #62799b;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -114,7 +126,9 @@
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
+.dropbtn:hover {
+  color: #62799b;
+}
 // .dropdown:hover .dropbtn {
 //   background-color: #2a2a2a !important;
 // }
@@ -129,5 +143,10 @@
   }
   .dropbtn {
     font-size: 2rem;
+  }
+  .buttons {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
   }
 }

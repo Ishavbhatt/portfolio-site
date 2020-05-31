@@ -61,6 +61,11 @@
 }
 // Responsive
 @media screen and (max-width: 980px) {
+  .aboutpage-head {
+    padding-top: 4rem;
+    font-size: 60px;
+    padding-bottom: 0;
+  }
   .aboutpage-boxrow {
     display: flex;
     flex-direction: column;
@@ -79,5 +84,9 @@
   }
   .aboutpagebox2 {
     width: 100%;
+  }
+  .my-image {
+    padding-left: 2rem;
+    padding-top: 0;
   }
 }

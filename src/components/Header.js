@@ -42,7 +42,7 @@ export default function Header() {
                 </button>
                 <div class="dropdown-content">
                   <a href="https://www.linkedin.com/in/ishav-bhatt-a3484b192/">
-                    linkedin
+                    Linkedin
                   </a>
                   <a href="https://twitter.com/ishavbhatt143">Twitter</a>
                   <a href="https://github.com/Ishavbhatt">Github</a>

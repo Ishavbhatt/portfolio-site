@@ -89,14 +89,17 @@ strong {
   }
   .aboutinhomepage-heading {
     font-size: 62px !important;
-    padding: 2rem 2rem;
+    padding: 2rem 0;
   }
   .aboutinhomepage-para {
     font-size: 30px !important;
-    padding: 1rem;
+    padding: 2rem 0;
   }
   .my-image {
     width: 300px;
     // max-width: 90%;
+  }
+  .aboutin-homepagebutton-div {
+    padding: 1rem 0;
   }
 }
