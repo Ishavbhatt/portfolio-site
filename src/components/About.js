@@ -18,14 +18,15 @@ export default function About() {
             A Little about <br></br>Myself.
           </h1>
           <p className="aboutpage-para">
-            A Little About ​Myself. ​Lorem Ipsum dolor sit amet, consectetur
-            adipiscing elit sed do eiusmod tempor inciddunt ut labore et dolore
-            magna aliqua aliquip laboris nisi ut aliquip.
+            Hi, I'am a Full-Stack Web Developer. Passionate about creating web
+            applications. I started my journey as front end web developer by
+            just learning HTML and CSS. After that i got introduced to the
+            Javascript programming language. It's totally fun to play with the
+            code, design and features etc.
           </p>
+          <h1 className="aboutpage-heading">Experience / Skills</h1>
           <p className="aboutpage-para">
-            A Little About ​Myself. ​Lorem Ipsum dolor sit amet, consectetur
-            adipiscing elit sed do eiusmod tempor inciddunt ut labore et dolore
-            magna aliqua aliquip laboris nisi ut aliquip.
+            Web Design + Web Development + Product Design
           </p>
           <div className="aboutbutton-div">
             <Link to="/skills" className="about-button">

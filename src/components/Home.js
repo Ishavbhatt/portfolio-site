@@ -27,14 +27,22 @@ export default function Home() {
               A Little about <br></br>Myself.
             </h1>
             <p className="aboutinhomepage-para">
-              A Little About ​Myself. ​Lorem Ipsum dolor sit amet, consectetur
-              adipiscing elit sed do eiusmod tempor inciddunt ut labore et
-              dolore magna aliqua aliquip laboris nisi ut aliquip.
+              Hi, I'am a Full-Stack Web Developer. Passionate about creating web
+              applications.
             </p>
             <p className="aboutinhomepage-para">
-              A Little About ​Myself. ​Lorem Ipsum dolor sit amet, consectetur
-              adipiscing elit sed do eiusmod tempor inciddunt ut labore et
-              dolore magna aliqua aliquip laboris nisi ut aliquip.
+              I started my journey as front end web developer by just learning
+              HTML and CSS. After that i got introduced to the Javascript
+              programming language. It's totally fun to play with the code,
+              design and features etc.
+            </p>
+            <p className="aboutinhomepage-para">
+              I have completed my Full-Stack Web Developer Nanodegree Udacity
+              course
+              <a className="altcampus" href="https://altcampus.io/">
+                {" "}
+                @Altcampus
+              </a>
             </p>
             <div className="aboutin-homepagebutton-div">
               <Link to="/about" className="about-inhomepage-button">
