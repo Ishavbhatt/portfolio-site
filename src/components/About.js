@@ -11,7 +11,7 @@ export default function About() {
       </div>
       <div className="aboutpage-boxrow">
         <div className="aboutpagebox1">
-          <img src="/images/mypic.jpeg" className="my-image" />
+          <img src="/images/mypic.jpeg" className="my-image-aboutpage" />
         </div>
         <div className="aboutpagebox2">
           <h1 className="aboutpage-heading">
