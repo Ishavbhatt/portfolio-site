@@ -19,10 +19,13 @@ export default function About() {
           </h1>
           <p className="aboutpage-para">
             Hi, I'am a Full-Stack Web Developer. Passionate about creating web
-            applications. I started my journey as front end web developer by
-            just learning HTML and CSS. After that i got introduced to the
-            Javascript programming language. It's totally fun to play with the
-            code, design and features etc.
+            applications.
+          </p>
+          <p className="aboutpage-para">
+            I started my journey as front end web developer by just learning
+            HTML and CSS. After that i got introduced to the Javascript
+            programming language. It's totally fun to play with the code, design
+            and features etc.
           </p>
           <h1 className="aboutpage-heading">Experience / Skills</h1>
           <p className="aboutpage-para">

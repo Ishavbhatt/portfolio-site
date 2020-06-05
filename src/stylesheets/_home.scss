@@ -78,6 +78,7 @@ strong {
   color: #1da1f2;
   font-size: 1rem;
   font-weight: 900;
+  text-decoration: none;
 }
 // Responsive
 @media screen and (max-width: 980px) {
@@ -111,5 +112,8 @@ strong {
   }
   .aboutin-homepagebutton-div {
     padding: 1rem 0;
+  }
+  .altcampus {
+    font-size: 3rem;
   }
 }
